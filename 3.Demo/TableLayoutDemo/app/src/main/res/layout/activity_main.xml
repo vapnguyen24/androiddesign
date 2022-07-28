@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".MainActivity">
+
+    <TableRow>
+        <TextView
+            android:text="Row 1"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_span="3"
+            android:padding="32dp"
+            android:background="#ed8404"/>
+    </TableRow>
+
+    <TableRow android:layout_marginTop="2dp">
+        <TextView
+            android:text="Row 2\nColumn 1"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#ed8404"
+            android:padding="32dp"
+            />
+        <TextView
+            android:text="Row 2\nColumn 2"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#ed8404"
+            android:layout_marginLeft="2dp"
+            android:padding="32dp"
+            />
+        <TextView
+            android:text="Row 2\nColumn 3"
+            android:background="#ed8404"
+            android:layout_marginLeft="2dp"
+            android:padding="32dp"
+            />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="2dp">
+        <TextView
+            android:text="Row 3\n Column 1"
+            android:gravity="center"
+            android:padding="32dp"
+            android:layout_weight="1"
+            android:background="#ed8404"
+            />
+        <TextView
+            android:text="Row 3\n Column 2"
+            android:gravity="center"
+            android:padding="32dp"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="1"
+            android:background="#ed8404"
+            />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="2dp">
+        <TextView
+            android:text="Row 4\n Column 1"
+            android:gravity="center"
+            android:padding="32dp"
+            android:layout_weight="1"
+            android:background="#ed8404"
+            />
+        <TextView
+            android:text="Row 4\n Column 2"
+            android:gravity="center"
+            android:background="#ed8404"
+            android:padding="32dp"
+            android:layout_weight="10"
+            android:layout_marginLeft="2dp"
+            />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="2dp">
+        <TextView
+            android:text="Row 5\n Column 1"
+            android:gravity="center"
+            android:padding="32dp"
+            android:background="#ed8404"
+            android:layout_span="3"
+            />
+    </TableRow>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="TableLayout"
+        android:textColor="#666"
+        android:textSize="33sp"
+        android:textStyle="bold" />
+
+</TableLayout>
